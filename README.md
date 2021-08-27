@@ -9,7 +9,7 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 
 
 ### My Github Stats:
-![Github stats](https://github-readme-stats.vercel.app/api?username=Kunal2703&theme=highcontrast&show_icons=true&count_private=true)
+![Github stats](https://github-readme-stats.vercel.app/api?username=Kunal&theme=highcontrast&show_icons=true&count_private=true)
 
 ### My Language Stats:
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=shinokada)
