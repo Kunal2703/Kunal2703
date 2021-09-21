@@ -7,6 +7,14 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 
 🔘 Linkedin: https://www.linkedin.com/in/kunal27/
 
+### My Skills:
+          1. Python
+          2. C
+          
+### Areas of Study:
+          1. Data Structures and Algorithms
+          2. Web Development (HTML, CSS, and JavaScript)
+          
 
 ### My Github Stats:
 ![Github stats](https://github-readme-stats.vercel.app/api?username=Kunal2703&theme=highcontrast&show_icons=true&count_private=true)
