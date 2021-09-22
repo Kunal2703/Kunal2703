@@ -9,7 +9,7 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 
 ### My Skills:
           1. Python
-          2. C
+          2. C (Programming Languages)
           
 ### Areas of Study:
           1. Data Structures and Algorithms
