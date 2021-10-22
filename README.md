@@ -21,3 +21,5 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 
 ### My Language Stats:
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=shinokada)
+
+![Visitor Count](https://profile-counter.glitch.me/Kunal2703/count.svg)
