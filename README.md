@@ -22,5 +22,6 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 ### My Language Stats:
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703)
 
-![](https://komarev.com/ghpvc/?username=Kunal2703)
+### Thanks! for visiting my profile...
+![](https://komarev.com/ghpvc/?username=Kunal2703&color=brightgreen)
 
