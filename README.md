@@ -14,6 +14,7 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
 ### Areas of Study:
           1. Data Structures and Algorithms
           2. Web Development (HTML, CSS, and JavaScript)
+          3. cpp
           
 
 ### My Github Stats:
