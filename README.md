@@ -1,6 +1,6 @@
 ###  Hi  I'm  Kunal! 👋
 
-I am a Computer Science Engineering Students and my specialization in Cloud Computing and Virtualization Technology, undergraduate at University of Petroleum and Energy Studies.
+# I am currently a junior year Bachelor of Techonology Undergraduate student in Computer Science at University of Petroleum and Energy Studies and my specialization in Cloud Computing and Virtualization Technology.
 
 ### About myself:
 
@@ -16,6 +16,7 @@ I am a Computer Science Engineering Students and my specialization in Cloud Comp
           2. Web Development (HTML, CSS, and JavaScript)
           3. cpp
           4. java
+          5. Competitive Programming
           
 
 ### My Github Stats:
