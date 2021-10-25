@@ -1,4 +1,4 @@
-###  Hi  I'm  Kunal! 👋
+#  Hi  I'm  Kunal! 👋
 
 # I am currently a junior year Bachelor of Techonology Undergraduate student in Computer Science at University of Petroleum and Energy Studies and my specialization in Cloud Computing and Virtualization Technology.
 
