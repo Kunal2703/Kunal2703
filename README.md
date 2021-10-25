@@ -7,7 +7,7 @@
 
 🔘 Linkedin: https://www.linkedin.com/in/kunal27/
 
-🔘 Email id: kunalsingh2703@gmail.com
+🔘 Email: kunalsingh2703@gmail.com
 
 ### My Skills:
           1. Python
