@@ -35,8 +35,8 @@
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 <br />
 
-[website]: https://google.com
-[twitter]: https://twitter.com/indrajeet_nikam
+[website]: https://google.com/theme=highcontrast
+[twitter]: https://twitter.com/indrajeet_nikam/theme=highcontrast
 [linkedin]: https://www.linkedin.com/in/indrajeet-nikam-3737a8101/
 
 ### Thanks! for visiting my profile...
