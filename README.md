@@ -1,4 +1,5 @@
 #  Hi  I'm  Kunal! 👋
+#  Hi  I'm  Kunal! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 # I am currently a junior year Bachelor of Techonology Undergraduate Student in Computer Science at University of Petroleum and Energy Studies and my specialization in Cloud Computing and Virtualization Technology.
 
