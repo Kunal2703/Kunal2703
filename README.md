@@ -27,6 +27,9 @@
 ### My Language Stats:
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703)
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Kunal2703&repo=github-readme-stats)](https://github.com/Kunal2703/github-readme-stats)
+
+
 ### Thanks! for visiting my profile...
 ![](https://komarev.com/ghpvc/?username=Kunal2703&color=brightgreen)
 
