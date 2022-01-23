@@ -27,7 +27,7 @@
 
 ### My Language Stats:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=8)](https://github.com/Kunal2703/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=8)](https://github.com/Kunal2703/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=10)](https://github.com/Kunal2703/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&layout=compact)](https://github.com/Kunal2703/github-readme-stats)
 
 
