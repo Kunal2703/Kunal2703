@@ -12,6 +12,8 @@
 ### My Skills:
           1. Python
           2. C (Programming Languages)
+          3. MYSQL
+          4. HTML CSS
           
 ### Areas of Study:
           1. Data Structures and Algorithms
