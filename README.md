@@ -14,6 +14,8 @@
           2. C (Programming Languages)
           3. MYSQL
           4. HTML CSS
+          5. DBMS
+          6. AWS
           
 ### Areas of Study:
           1. Data Structures and Algorithms
