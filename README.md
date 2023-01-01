@@ -13,18 +13,17 @@
 
 ### My Skills:
           1. Python
-          2. C (Programming Languages)
-          3. MYSQL
-          4. HTML CSS
+          2. C++
+          3. C (Programming Languages)
+          4. MYSQL
           5. DBMS
           6. AWS
           
 ### Areas of Study:
           1. Data Structures and Algorithms
           2. Web Development (HTML, CSS, and JavaScript)
-          3. cpp
-          4. java
-          5. Competitive Programming
+          3. java
+          4. Competitive Programming
           
 
 ### My Github Stats:
