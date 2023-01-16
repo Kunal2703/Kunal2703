@@ -34,7 +34,7 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&langs_count=10)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&show_icons=true&theme=radical&layout=compact)-->
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=10&theme=radical)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&&langs_count=10&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&theme=radical)-->
 
