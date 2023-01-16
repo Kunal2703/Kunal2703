@@ -38,8 +38,6 @@
 <!--[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&theme=radical)-->
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
-
 
 ## Thanks! for visiting my profile...😊
 ![](https://komarev.com/ghpvc/?username=Kunal2703&color=brightgreen)
