@@ -33,7 +33,6 @@
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=15)](https://github.com/Kunal2703/github-readme-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&langs_count=10)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&show_icons=true&theme=radical&layout=compact)-->
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&langs_count=10&theme=radical)]()
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&&langs_count=10&theme=radical)]
 
 <!--[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&theme=radical)-->
