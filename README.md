@@ -2,7 +2,7 @@
 #  Hi  I'm  Kunal! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px">
 
 
-# I am Pursuing my B. Tech in Computer Science with a Major Specialization in Cloud Computing and Virtualization Technology and a Minor Specialization in Machine Learning from the University of Petroleum and Energy Studies, Dehradun, Uttarakhand. I am currently in the 3rd Year of B.Tech and I am very enthusiastic about pursuing my career in Computer Science.
+# I am Pursuing my B. Tech in Computer Science with a Major Specialization in Cloud Computing and Virtualization Technology and a Minor Specialization in Machine Learning from the University of Petroleum and Energy Studies, Dehradun, Uttarakhand. I am currently in the 4th Year of B.Tech and I am very enthusiastic about pursuing my career in Computer Science.
 
 
 ## About Myself:
