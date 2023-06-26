@@ -14,12 +14,11 @@
 🔘 Email: kunalsingh2703@gmail.com
 
 ### My Skills:
-          1. Python
-          2. C++
-          3. C (Programming Languages)
-          4. MYSQL
-          5. DBMS
-          6. AWS
+          • Programming Languages: Python, C++, C
+          • Cloud Platforms: AWS, Google Cloud Platform, Microsoft Azure
+          • Databases: MYSQL, MYSQL Workbench, Oracle
+          • Operating System: Windows, macOS, Linux, CentOS
+          • Tools/ Technology/ Platforms: Git/GitHub, Docker, YOLO, Jenkins, Visual Studio
           
 ### Areas of Study:
           1. Data Structures and Algorithms
