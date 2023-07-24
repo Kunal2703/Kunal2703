@@ -23,8 +23,7 @@
 ### Areas of Study:
           1. Data Structures and Algorithms
           2. Web Development (HTML, CSS, and JavaScript)
-          3. java
-          4. Competitive Programming
+          3. Competitive Programming
           
 
 ### My Github Stats:
