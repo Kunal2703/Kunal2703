@@ -14,11 +14,6 @@
 - 📫 How to reach me **kunalsingh2703@gmail.com**
 
 <br>
-<a href="https://www.leetcode.com/kunal_2703" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kunal_2703" height="40" width="50" /></a>
-<a href="https://auth.geeksforgeeks.org/user/kunal2703" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="kunal2703" height="40" width="50" /></a>
-<a href="https://www.hackerrank.com/kunal_27" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kunal_27" height="40" width="50" /></a>
-
-<br>
 <br>
 
 <h3 align="left">Connect with me:</h3>
