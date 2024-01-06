@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px">
-, I'm Kunal</h1>
+,  I'm Kunal</h1>
 <h3 align="center">I'm a Freshman from India. Deeply passionate about software development & innovations.</h3>
 
 <div align="center">
