@@ -18,7 +18,7 @@ I'm a **DevOps Engineer** with a strong foundation in cloud infrastructure and C
 
 I specialize in architecting scalable, cost-efficient cloud environments using AWS services like **EC2, S3, Route 53, CloudFront, EKS, and RDS**. I’ve designed and managed multi-environment deployments (staging, beta, production), implemented secure infrastructure using **IAM and RBAC policies**, and optimized global content delivery through CloudFront distribution strategies.
 
-[Portfolio](https://kunal2703.github.io/portfolio/) • [Resume](https://kunal2703.github.io/resume/) • [LinkedIn](https://www.linkedin.com/in/kunal27/)
+[Portfolio](https://kunal2703.github.io/kunal_portfolio/) • [Resume](https://kunal2703.github.io/resume/) • [LinkedIn](https://www.linkedin.com/in/kunal27/)
 
 ---
 
