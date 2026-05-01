@@ -72,8 +72,8 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kunal2703&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7" width="48%" />
+  <img src="https://github-stats.vercel.app/api?username=Kunal2703&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" width="48%" />
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7" width="48%" />
 </p>
 
 <p align="center">
