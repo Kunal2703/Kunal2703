@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Kunal2703/Kunal2703/blob/main/img.png" alt="Kunal's Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/img.png" alt="Kunal's Banner" width="100%">
 </div>
 
 <div align="center">
@@ -12,7 +12,6 @@
 
 ### 💫 About Me
 **Cloud & DevOps Engineer** | **Infrastructure Automator** | **CI/CD Specialist** | **FinOps Specialist** | **Innovation-Driven**
-
 
 I'm a **DevOps Engineer** with a strong foundation in cloud infrastructure and CI/CD automation. At **Careers360**, I’ve led end-to-end migrations from traditional servers to **Amazon EKS**, reduced AWS billing by over **40%**, and significantly improved CDN performance by optimizing **CloudFront** and integrating **Akamai**.
 
@@ -72,8 +71,8 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-stats.vercel.app/api?username=Kunal2703&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" width="48%" />
-  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7" width="48%" />
+  <img src="https://github-stats.vercel.app/api?username=Kunal2703&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" height="195" />
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7" height="195" />
 </p>
 
 <p align="center">
