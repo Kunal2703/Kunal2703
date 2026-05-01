@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/img" alt="Kunal's Banner" width="100%">
+  <img src="https://github.com/Kunal2703/Kunal2703/blob/main/img.png" alt="Kunal's Banner" width="100%">
 </div>
 
 <div align="center">
