@@ -6,14 +6,17 @@
 
 # Hi 👋, I'm Kunal! 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=DevOps+Engineer;Cloud+Architect;Infrastructure+Specialist;SRE+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=DevOps+Engineer;Cloud+Architect;FinOps+Specialist;Infrastructure+Specialist;SRE+Enthusiast)](https://git.io/typing-svg)
 
 ---
 
 ### 💫 About Me
-**Cloud & DevOps Engineer** | **Infrastructure Automator** | **Innovation-Driven**
+**Cloud & DevOps Engineer** | **Infrastructure Automator** | **CI/CD Specialist** | **FinOps Specialist** | **Innovation-Driven**
 
-I specialize in building resilient, scalable, and automated cloud infrastructures. My expertise spans across the entire DevOps lifecycle—from Infrastructure as Code (IaC) and CI/CD to high-scale container orchestration and observability.
+
+I'm a **DevOps Engineer** with a strong foundation in cloud infrastructure and CI/CD automation. At **Careers360**, I’ve led end-to-end migrations from traditional servers to **Amazon EKS**, reduced AWS billing by over **40%**, and significantly improved CDN performance by optimizing **CloudFront** and integrating **Akamai**.
+
+I specialize in architecting scalable, cost-efficient cloud environments using AWS services like **EC2, S3, Route 53, CloudFront, EKS, and RDS**. I’ve designed and managed multi-environment deployments (staging, beta, production), implemented secure infrastructure using **IAM and RBAC policies**, and optimized global content delivery through CloudFront distribution strategies.
 
 [Portfolio](https://kunal2703.github.io/portfolio/) • [Resume](https://kunal2703.github.io/resume/) • [LinkedIn](https://www.linkedin.com/in/kunal27/)
 
