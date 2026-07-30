@@ -23,6 +23,7 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "contribution-rada
 
 QUERY = """
 query($login: String!) {
+  viewer { login }
   user(login: $login) {
     contributionsCollection {
       totalCommitContributions
@@ -65,6 +66,17 @@ def fetch():
         body = json.load(r)
     if "errors" in body:
         sys.exit(f"GraphQL error: {body['errors']}")
+
+    # Guard: only the profile owner's own token can see the private breakdown.
+    # Anything else (notably Actions' built-in GITHUB_TOKEN, which runs as
+    # github-actions[bot]) silently returns public-only counts and would redraw
+    # the chart with the wrong shape.
+    viewer = body["data"]["viewer"]["login"]
+    if viewer.lower() != USER.lower():
+        sys.exit(
+            f"token belongs to '{viewer}', not '{USER}'. Private contributions "
+            "would be omitted - use a PAT owned by the profile owner."
+        )
     return body["data"]["user"]["contributionsCollection"]
 
 

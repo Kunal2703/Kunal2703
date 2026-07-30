@@ -1,0 +1,35 @@
+name: Refresh contribution radar
+
+on:
+  schedule:
+    # 03:17 UTC daily. GitHub queues cron runs, so it may drift a few minutes.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate radar
+        env:
+          # Must be a PAT owned by Kunal2703 with `repo` scope. The built-in
+          # GITHUB_TOKEN runs as github-actions[bot] and can only see public
+          # contributions; the script refuses to run with it.
+          GITHUB_TOKEN: ${{ secrets.CONTRIB_TOKEN }}
+        run: python3 scripts/gen-contribution-radar.py
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- assets/contribution-radar.svg; then
+            echo "No change since the last run."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh contribution radar" -- assets/contribution-radar.svg
+          git push
