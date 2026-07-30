@@ -74,10 +74,6 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
   <img src="assets/contribution-radar.svg" width="520" alt="Contribution breakdown: 65% commits, 18% pull requests, 13% code review, 5% issues" />
 </p>
 
-<p align="center">
-  <sub>Last 12 months across public and private repositories · rebuilt with <code>scripts/gen-contribution-radar.py</code></sub>
-</p>
-
 ---
 
 ### 📁 Featured Projects
