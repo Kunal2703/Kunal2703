@@ -68,15 +68,14 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 Contribution Breakdown
 
 <p align="center">
-  <img src="https://github-stats.vercel.app/api?username=Kunal2703&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" height="195" />
-  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=Kunal2703&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7" height="195" />
+  <img src="assets/contribution-radar.svg" width="520" alt="Contribution breakdown: 65% commits, 18% pull requests, 13% code review, 5% issues" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kunal2703&theme=tokyonight&hide_border=true&background=0D1117&stroke=36BCF7&ring=36BCF7&fire=36BCF7" width="97%" />
+  <sub>Last 12 months across public and private repositories · rebuilt with <code>scripts/gen-contribution-radar.py</code></sub>
 </p>
 
 ---
