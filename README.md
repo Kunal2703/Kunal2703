@@ -68,14 +68,6 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 
 ---
 
-### 📊 Contribution Breakdown
-
-<p align="center">
-  <img src="assets/contribution-radar.svg" width="520" alt="Contribution breakdown: 65% commits, 18% pull requests, 13% code review, 5% issues" />
-</p>
-
----
-
 ### 📁 Featured Projects
 
 | Project | Description | Tech Stack |
