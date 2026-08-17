@@ -57,7 +57,19 @@ def fetch(count: int) -> list[dict]:
         headers={"Content-Type": "application/json", "User-Agent": "profile-readme-bot"},
     )
     with urllib.request.urlopen(req, timeout=20) as resp:
-        payload = json.load(resp)
+        status = resp.status
+        ctype = resp.headers.get("Content-Type", "?")
+        raw = resp.read()
+
+    try:
+        payload = json.loads(raw)
+    except ValueError:
+        # "Expecting value: line 1 column 1" on its own says nothing about why.
+        # A 200 carrying HTML means the endpoint moved or a proxy answered.
+        head = raw[:200].decode("utf-8", "replace").replace("\n", " ")
+        raise RuntimeError(
+            f"response was not JSON (HTTP {status}, Content-Type {ctype}): {head!r}"
+        ) from None
 
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GraphQL error"))
