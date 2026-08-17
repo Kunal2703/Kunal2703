@@ -54,7 +54,16 @@ def fetch(count: int) -> list[dict]:
     req = urllib.request.Request(
         "https://gql.hashnode.com",
         data=body,
-        headers={"Content-Type": "application/json", "User-Agent": "profile-readme-bot"},
+        # `Accept` is not optional here. gql.hashnode.com serves the GraphQL API
+        # and its browser playground from the same URL and content-negotiates
+        # between them; urllib sends no Accept header by default, so the server
+        # answered with the playground's HTML and a 200. Ask for JSON.
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "profile-readme-bot",
+        },
+        method="POST",
     )
     with urllib.request.urlopen(req, timeout=20) as resp:
         status = resp.status
