@@ -6,7 +6,7 @@
 
 # Hi 👋, I'm Kunal! 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=DevOps+Engineer;Cloud+Architect;FinOps+Specialist;Infrastructure+Specialist;Site+Reliability+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=DevOps+Engineer;Cloud+Architect;FinOps+Specialist;Infrastructure+Specialist;Site+Reliability+Engineer;Platform+Engineer)](https://git.io/typing-svg)
 
 ---
 
