@@ -11,13 +11,15 @@
 ---
 
 ### 💫 About Me
-**Cloud & DevOps Engineer** | **Infrastructure Automator** | **CI/CD Specialist** | **FinOps Specialist** | **Innovation-Driven**
+**DevOps & SRE Engineer** | **Terraform & Kubernetes** | **Observability** | **FinOps** | **AWS + GCP**
 
-I'm a **DevOps Engineer** with a strong foundation in cloud infrastructure and CI/CD automation. At **Careers360**, I’ve led end-to-end migrations from traditional servers to **Amazon EKS**, reduced AWS billing by over **40%**, and significantly improved CDN performance by optimizing **CloudFront** and integrating **Akamai**.
+I'm a **DevOps & SRE Engineer** with **2.5+ years** across **AWS and GCP**. I turn greenfield requirements into infrastructure other engineers can operate without me — Terraform they can review, clusters that survive the traffic, and dashboards that exist before the incident.
 
-I specialize in architecting scalable, cost-efficient cloud environments using AWS services like **EC2, S3, Route 53, CloudFront, EKS, and RDS**. I’ve designed and managed multi-environment deployments (staging, beta, production), implemented secure infrastructure using **IAM and RBAC policies**, and optimized global content delivery through CloudFront distribution strategies.
+**Currently at Urumi (UrumiAI)** — I built an AI-native e-commerce platform (**EmDash**) end-to-end, from POC to production. That meant provisioning **8+ AWS services** (EKS, ECR, RDS, S3, IAM/IRSA, ALB, VPC, ACM) as **Terraform IaC**, a **multi-tenant Helm provisioner** that stands up an isolated store per tenant, and a **dual-cloud (AWS → GCP)** integration so the existing GCP estate kept working. I own the observability too: **Grafana + Google Managed Prometheus** across 2 GKE regions, **12+ dashboards**, and alerting-as-code escalating through **4 PagerDuty tiers**.
 
-[Portfolio](https://kunal2703.github.io/kunal_portfolio/) • [Resume](https://kunal2703.github.io/resume/) • [LinkedIn](https://www.linkedin.com/in/kunal27/)
+**Previously at Careers360** — I scaled infrastructure through the largest traffic event in the company's history (**5 lakh+ requests in 30 minutes**), architected a **Devtron CI/CD** platform from scratch, upgraded **EKS 1.24 → 1.31** across three environments with **zero downtime**, led a **CloudFront → Akamai** CDN migration that cut latency 30%, and drove FinOps cost reductions of **25%** in production and **65%** in staging.
+
+[Portfolio](https://kunal2703.github.io/kunal_portfolio/) • [Resume](https://kunal2703.github.io/resume/) • [Blog](https://kunaltheengineer.hashnode.dev/) • [LinkedIn](https://www.linkedin.com/in/kunal27/)
 
 ---
 
@@ -25,12 +27,14 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 
 **☁️ Cloud Platforms**
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Akamai](https://img.shields.io/badge/Akamai-%230099CC.svg?style=for-the-badge&logo=akamai&logoColor=white)
 ![CloudFront](https://img.shields.io/badge/Amazon%20CloudFront-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 **☸️ Container Orchestration**
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![EKS](https://img.shields.io/badge/Amazon%20EKS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GKE](https://img.shields.io/badge/GKE-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Helm](https://img.shields.io/badge/helm-%230F1628.svg?style=for-the-badge&logo=helm&logoColor=white)
 
@@ -43,12 +47,14 @@ I specialize in architecting scalable, cost-efficient cloud environments using A
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=github-actions&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Devtron](https://img.shields.io/badge/Devtron-%233366FF.svg?style=for-the-badge&logo=devtron&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
 
 **📊 Monitoring & Observability**
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/Amazon%20CloudWatch-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![ELK](https://img.shields.io/badge/ELK%20Stack-%23005571.svg?style=for-the-badge&logo=elastic-stack&logoColor=white)
+![PagerDuty](https://img.shields.io/badge/PagerDuty-%2306AC38.svg?style=for-the-badge&logo=pagerduty&logoColor=white)
 
 **💻 Scripting & Programming**
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
