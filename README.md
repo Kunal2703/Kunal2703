@@ -74,13 +74,58 @@ I'm a **DevOps & SRE Engineer** with **2.5+ years** across **AWS and GCP**. I tu
 
 ---
 
+### 📊 Activity Overview
+
+<table>
+<tr>
+<td valign="middle">
+
+**1,100+** contributions in the last year, across **26** repositories.
+
+Most of it is commits and reviews on infrastructure —
+Terraform modules, Helm charts, CI pipelines and the
+alerting rules that sit on top of them.
+
+<sub>↻ Rebuilt daily from the GitHub GraphQL API.
+Private-repo contributions are included.</sub>
+
+</td>
+<td width="540" align="center">
+  <img src="assets/contribution-radar.svg" width="520"
+       alt="Contribution breakdown: 61% commits, 17% pull requests, 17% code review, 5% issues" />
+</td>
+</tr>
+</table>
+
+---
+
+### 📝 Latest Writing
+
+I write up the things that broke and how they got fixed — cluster upgrades, cost work, incidents.
+
+<!-- BLOG:START -->
+| Article | Published | Read |
+| :--- | :--- | :--- |
+| **[How to Redirect example.com to www.example.com Using AWS S3, CloudFront & Route 53](https://kunaltheengineer.hashnode.dev/redirect-example-com-to-www-using-aws-s3-cloudfront-route53)** | 2025-07-10 | 2 min |
+| **[🚀 Successfully Upgraded Amazon EKS Cluster to v1.31 — Lessons Learned + Identity Provider Fix 🛠️](https://kunaltheengineer.hashnode.dev/eks-cluster-upgrade-version-from-130-to-131)** | 2025-06-27 | 3 min |
+| **[Behind the Scenes of "www.example.com" – A Scalable Cloud-Native Architecture Built on Amazon EKS](https://kunaltheengineer.hashnode.dev/cloud-native-architecture-on-eks)** | 2025-04-24 | 2 min |
+| **[Deploying Apache Airflow with Docker on Ubuntu EC2 Instance](https://kunaltheengineer.hashnode.dev/deploying-apache-airflow-with-docker)** | 2025-01-11 | 4 min |
+| **[Upgrading the EKS Cluster, Node Groups, and Add-Ons from Version 1.28 to 1.29](https://kunaltheengineer.hashnode.dev/upgrading-the-eks-cluster)** | 2024-10-25 | 4 min |
+<!-- BLOG:END -->
+
+<sub>↻ Refreshed weekly from Hashnode by a GitHub Action.</sub>
+
+[**All articles →**](https://kunaltheengineer.hashnode.dev/)
+
+---
+
 ### 📁 Featured Projects
 
-| Project | Description | Tech Stack |
+| Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[QuillPost](https://github.com/Kunal2703/QuillPost)** | A modern blogging platform with a sleek UI. | JS, HTML/CSS |
-| **[Cloud-Provider-Advisor](https://github.com/Kunal2703/Cloud-Provider-Advisor)** | An intelligent tool to advise on cloud selection. | Python, AWS |
-| **[Parking-Spot-Assigner](https://github.com/Kunal2703/Parking-Spot-Assigner-with-License-Plate-Detector)** | Real-time parking detection using OpenCV. | Python, OpenCV |
+| **[QuillPost](https://github.com/Kunal2703/QuillPost)** | Blog platform split into independent services — Django for auth and comments, Spring Boot for posts, React for the UI — talking over REST and shipping via Docker Compose or Kubernetes manifests. | Kubernetes · Docker · Django · Spring Boot · React |
+| **[Cloud-Provider-Advisor](https://github.com/Kunal2703/Cloud-Provider-Advisor)** | Aggregates compute offerings from AWS, Azure and GCP through their SDKs, then filters by vCPU, memory, storage, OS and region to find the cheapest viable machine. | Python · AWS · Azure · GCP · React |
+| **[Parking-Spot-Assigner](https://github.com/Kunal2703/Parking-Spot-Assigner-with-License-Plate-Detector)** | Reads number plates with YOLOv7 and Tesseract OCR, matches them against the employee database, and assigns the nearest free bay. | Python · YOLOv7 · OpenCV · OCR · MySQL |
 
 ---
 

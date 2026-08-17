@@ -77,7 +77,28 @@ def fetch():
             f"token belongs to '{viewer}', not '{USER}'. Private contributions "
             "would be omitted - use a PAT owned by the profile owner."
         )
-    return body["data"]["user"]["contributionsCollection"]
+
+    c = body["data"]["user"]["contributionsCollection"]
+
+    # Owning the token is not enough - it must also carry `repo` scope. Without
+    # it the API still answers, but every private contribution collapses into
+    # restrictedContributionsCount and the breakdown silently becomes
+    # public-only (90/10/0/0 here instead of 61/17/17/5).
+    #
+    # Do NOT try to detect this from contributionCalendar.totalContributions:
+    # with "Include private contributions on my profile" enabled that figure
+    # reports the full count to *any* viewer, so it looks correct either way.
+    # restrictedContributionsCount is the honest signal - it is the number of
+    # contributions this token is being denied.
+    restricted = c["restrictedContributionsCount"]
+    if restricted:
+        sys.exit(
+            f"token cannot see {restricted} private contributions, so the chart "
+            "would be drawn from public activity only. Add the `repo` scope to "
+            "the PAT (classic tokens: tick `repo`; fine-grained tokens do not "
+            "expose this data at all)."
+        )
+    return c
 
 
 def build(c):
@@ -137,10 +158,20 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as fh:
         fh.write(build(collection))
+    # Print the breakdown, not just the calendar total - the total is the one
+    # number that looks the same whether or not private data was visible.
+    rows = [
+        ("commits", collection["totalCommitContributions"]),
+        ("pull requests", collection["totalPullRequestContributions"]),
+        ("code review", collection["totalPullRequestReviewContributions"]),
+        ("issues", collection["totalIssueContributions"]),
+    ]
+    total = sum(n for _, n in rows) or 1
+    print("wrote", os.path.relpath(OUT))
+    for name, n in rows:
+        print(f"  {name:<14}{n:>5}  {round(100 * n / total):>3}%")
     print(
-        "wrote",
-        os.path.relpath(OUT),
-        "-",
+        f"  {'':<14}{total:>5}  scored;",
         collection["contributionCalendar"]["totalContributions"],
-        "contributions in the last year",
+        "on the calendar",
     )
