@@ -103,7 +103,6 @@ Private-repo contributions are included.</sub>
 
 I write up the things that broke and how they got fixed — cluster upgrades, cost work, incidents.
 
-<!-- BLOG:START -->
 | Article | Published | Read |
 | :--- | :--- | :--- |
 | **[How to Redirect example.com to www.example.com Using AWS S3, CloudFront & Route 53](https://kunaltheengineer.hashnode.dev/redirect-example-com-to-www-using-aws-s3-cloudfront-route53)** | 2025-07-10 | 2 min |
@@ -111,9 +110,6 @@ I write up the things that broke and how they got fixed — cluster upgrades, co
 | **[Behind the Scenes of "www.example.com" – A Scalable Cloud-Native Architecture Built on Amazon EKS](https://kunaltheengineer.hashnode.dev/cloud-native-architecture-on-eks)** | 2025-04-24 | 2 min |
 | **[Deploying Apache Airflow with Docker on Ubuntu EC2 Instance](https://kunaltheengineer.hashnode.dev/deploying-apache-airflow-with-docker)** | 2025-01-11 | 4 min |
 | **[Upgrading the EKS Cluster, Node Groups, and Add-Ons from Version 1.28 to 1.29](https://kunaltheengineer.hashnode.dev/upgrading-the-eks-cluster)** | 2024-10-25 | 4 min |
-<!-- BLOG:END -->
-
-<sub>↻ Refreshed weekly from Hashnode by a GitHub Action.</sub>
 
 [**All articles →**](https://kunaltheengineer.hashnode.dev/)
 
