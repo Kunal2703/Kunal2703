@@ -68,6 +68,7 @@ def fetch(count: int) -> list[dict]:
     with urllib.request.urlopen(req, timeout=20) as resp:
         status = resp.status
         ctype = resp.headers.get("Content-Type", "?")
+        final = resp.geturl()
         raw = resp.read()
 
     try:
@@ -77,7 +78,8 @@ def fetch(count: int) -> list[dict]:
         # A 200 carrying HTML means the endpoint moved or a proxy answered.
         head = raw[:200].decode("utf-8", "replace").replace("\n", " ")
         raise RuntimeError(
-            f"response was not JSON (HTTP {status}, Content-Type {ctype}): {head!r}"
+            f"response was not JSON (HTTP {status}, Content-Type {ctype}, "
+            f"final URL {final}): {head!r}"
         ) from None
 
     if payload.get("errors"):
