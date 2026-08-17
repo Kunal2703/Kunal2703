@@ -91,7 +91,11 @@ Private-repo contributions are included.</sub>
 
 </td>
 <td width="540" align="center">
-  <img src="assets/contribution-radar.svg" width="520"
+  <!-- Absolute raw URL, not a relative path. A relative src is rewritten to
+       /Kunal2703/Kunal2703/raw/main/... which does not serve an SVG as an
+       image, so the chart renders as broken alt text. The banner above uses
+       the same absolute form. -->
+  <img src="https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/assets/contribution-radar.svg" width="520"
        alt="Contribution breakdown: 61% commits, 17% pull requests, 17% code review, 5% issues" />
 </td>
 </tr>
