@@ -86,9 +86,6 @@ Most of it is commits and reviews on infrastructure —
 Terraform modules, Helm charts, CI pipelines and the
 alerting rules that sit on top of them.
 
-<sub>↻ Rebuilt daily from the GitHub GraphQL API.
-Private-repo contributions are included.</sub>
-
 </td>
 <td width="540" align="center">
   <!-- Served from raw.githubusercontent.com, same as the banner above. Camo
