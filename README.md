@@ -127,13 +127,13 @@ alerting rules that sit on top of them.
 <td width="540" align="center">
   <!-- No figures in this markup on purpose: the chart is redrawn on a schedule
        and any number written here would drift out of step with it. The SVG
-       carries its own labels and its own aria-label, so it is the single
-       source of truth.
-
-       Served from raw.githubusercontent.com, same as the banner above. Camo
-       does not proxy GitHub-owned hosts, so markdown syntax gains nothing
-       here; the <img> keeps width control instead. If this ever shows as
-       broken alt text, check for a 429 from raw before editing the markup. -->
+       carries its own labels and aria-label, so it is the single source of
+       truth. Served from raw.githubusercontent.com, same as the banner above;
+       camo does not proxy GitHub-owned hosts, so markdown syntax gains nothing
+       here and the <img> keeps width control. If this ever shows as broken alt
+       text, check for a 429 from raw before editing the markup. Keep this
+       comment free of blank lines - one blank line ends the raw HTML block and
+       GitHub then drops the <img> entirely. -->
   <img src="https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/assets/contribution-radar.svg" width="520"
        alt="Contribution breakdown by type: commits, pull requests, code review and issues" />
 </td>
