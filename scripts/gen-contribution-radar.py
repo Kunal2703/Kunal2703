@@ -8,9 +8,10 @@ API and writes assets/contribution-radar.svg.
 Usage:
     GITHUB_TOKEN=$(gh auth token) python3 scripts/gen-contribution-radar.py
 
-The token must belong to the profile owner and carry the `repo` scope,
-otherwise private-repo contributions collapse into restrictedContributionsCount
-and the breakdown only reflects public activity.
+The token must belong to the profile owner and carry `read:user` (plus
+`read:org` for private repos owned by an organisation), otherwise private-repo
+contributions collapse into restrictedContributionsCount and the breakdown only
+reflects public activity. `repo` is not the scope that unlocks this.
 """
 
 import json
@@ -62,8 +63,22 @@ def fetch():
             "User-Agent": f"{USER}-profile-radar",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        body = json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            body = json.load(r)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 401:
+            # A traceback here reads like a bug in this script; it is almost
+            # always a mangled secret. Report the length so a truncated or
+            # whitespace-padded paste is obvious - a classic PAT is 40 chars
+            # after the `ghp_` prefix.
+            sys.exit(
+                f"HTTP 401: GitHub rejected the token (length {len(token)}). "
+                "The value is wrong, revoked or expired - not a scope problem. "
+                "A classic PAT is 44 characters and starts `ghp_`; anything "
+                "else means the secret was set from the wrong text."
+            )
+        sys.exit(f"HTTP {exc.code}: {exc.reason}")
     if "errors" in body:
         sys.exit(f"GraphQL error: {body['errors']}")
 
@@ -80,10 +95,15 @@ def fetch():
 
     c = body["data"]["user"]["contributionsCollection"]
 
-    # Owning the token is not enough - it must also carry `repo` scope. Without
+    # Owning the token is not enough - it must also carry `read:user`. Without
     # it the API still answers, but every private contribution collapses into
     # restrictedContributionsCount and the breakdown silently becomes
     # public-only (90/10/0/0 here instead of 61/17/17/5).
+    #
+    # `repo` is the intuitive guess and it is wrong: a classic PAT with `repo`
+    # and even `admin:org` still reports the public-only split. Contributions
+    # to private repos are gated on `read:user`, per
+    # https://docs.github.com/en/graphql/reference/objects#contributionscollection
     #
     # Do NOT try to detect this from contributionCalendar.totalContributions:
     # with "Include private contributions on my profile" enabled that figure
@@ -94,9 +114,11 @@ def fetch():
     if restricted:
         sys.exit(
             f"token cannot see {restricted} private contributions, so the chart "
-            "would be drawn from public activity only. Add the `repo` scope to "
-            "the PAT (classic tokens: tick `repo`; fine-grained tokens do not "
-            "expose this data at all)."
+            "would be drawn from public activity only. The scope that unlocks "
+            "them is `read:user` - NOT `repo`, which grants repository access "
+            "but leaves the contribution breakdown public-only. Private repos "
+            "owned by an organisation additionally need `read:org`. Classic "
+            "tokens only; fine-grained tokens never expose this data."
         )
     return c
 

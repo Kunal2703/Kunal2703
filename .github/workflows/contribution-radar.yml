@@ -27,14 +27,16 @@ jobs:
         run: |
           if [ -z "$CONTRIB_TOKEN" ]; then
             echo "::error::Secret CONTRIB_TOKEN is not set. Create a classic PAT" \
-                 "owned by Kunal2703 with the 'repo' scope and add it under" \
+                 "owned by Kunal2703 with the 'read:user' scope and add it under" \
                  "Settings > Secrets and variables > Actions."
             exit 1
           fi
 
       - name: Regenerate radar
         env:
-          # Must be a PAT owned by Kunal2703 with `repo` scope. The built-in
+          # Must be a classic PAT owned by Kunal2703 with `read:user` (and
+          # `read:org` for org-owned private repos). NOT `repo` - see the note
+          # in the script; `repo` alone still yields a public-only split. The built-in
           # GITHUB_TOKEN runs as github-actions[bot] and can only see public
           # contributions — 88% of the commit history is private, so that would
           # redraw the chart with the wrong shape. The script refuses to run
