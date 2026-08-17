@@ -91,15 +91,12 @@ Private-repo contributions are included.</sub>
 
 </td>
 <td width="540" align="center">
-
-<!-- Markdown syntax on purpose, not an <img> tag. GitHub rewrites markdown
-     images to its camo.githubusercontent.com proxy, which caches and serves
-     them reliably. An <img> inside a raw HTML block is left pointing straight
-     at raw.githubusercontent.com, which returns 429 to plenty of clients -
-     that is why this chart rendered as broken alt text. -->
-
-![Contribution breakdown: 61% commits, 17% pull requests, 17% code review, 5% issues](https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/assets/contribution-radar.svg)
-
+  <!-- Served from raw.githubusercontent.com, same as the banner above. Camo
+       does not proxy GitHub-owned hosts, so markdown syntax gains nothing
+       here; the <img> keeps width control instead. If this ever shows as
+       broken alt text, check for a 429 from raw before editing the markup. -->
+  <img src="https://raw.githubusercontent.com/Kunal2703/Kunal2703/main/assets/contribution-radar.svg" width="520"
+       alt="Contribution breakdown: 61% commits, 17% pull requests, 17% code review, 5% issues" />
 </td>
 </tr>
 </table>
