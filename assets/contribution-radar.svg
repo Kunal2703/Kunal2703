@@ -2,10 +2,10 @@
     <rect x="0.5" y="0.5" width="559" height="439" rx="12" fill="#0d1117" stroke="#30363d"/>
     <line x1="280" y1="75" x2="280" y2="365" stroke="#3fb950" stroke-width="2"/>
     <line x1="135" y1="220" x2="425" y2="220" stroke="#3fb950" stroke-width="2"/>
-    <polygon points="280.0,185.6 291.4,220.0 280.0,254.9 155.0,220.0" fill="#2ea043" fill-opacity="0.55" stroke="#3fb950" stroke-width="2" stroke-linejoin="round"/>
-    <circle cx="280.0" cy="185.6" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
-    <circle cx="291.4" cy="220.0" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
-    <circle cx="280.0" cy="254.9" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
+    <polygon points="280.0,185.7 291.5,220.0 280.0,255.5 155.0,220.0" fill="#2ea043" fill-opacity="0.55" stroke="#3fb950" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="280.0" cy="185.7" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
+    <circle cx="291.5" cy="220.0" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
+    <circle cx="280.0" cy="255.5" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
     <circle cx="155.0" cy="220.0" r="4.5" fill="#e6ffec" stroke="#3fb950" stroke-width="1.5"/>
     <text x="280" y="38" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="600">17%</text>
     <text x="280" y="62" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Code review</text>
